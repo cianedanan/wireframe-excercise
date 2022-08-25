@@ -1,6 +1,7 @@
 html{
     max-height: fit-content;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     min-height: 100vh;
 
 }
+
 main{
     width: 1500px;
     margin: auto;
@@ -23,6 +25,9 @@ nav{
 }
 
 ul{
+ display: flex;
+ align-items: center;
+ justify-content: center;
  list-style: none;
  padding: 0;
  margin: 0;
@@ -30,29 +35,18 @@ ul{
 }
 
 #logo{
-    display: inline-block;
+    display: inline;
     padding: 15px;
     width: 200px;
     height: 70px;
 }
 
-li{
-    display: inline-block;
-    margin: 0px;
-    text-align: center;
-
-}
-
 a{
-    color:black;
-    padding: 8px;
-    margin: 8px;
+    color:rgb(182, 182, 182);
     text-align: center;
-    position: relative;
+    padding: auto;
+    margin: 10px;
     font-size: 16pt;
-    display: block;
-    height: 70px
-
 }
 
 .mid{
@@ -105,4 +99,8 @@ footer{
     height: 100%; 
     margin-top: 15px;
     text-align: center;
+}
+
+p{
+    font-style: italic;
 }
